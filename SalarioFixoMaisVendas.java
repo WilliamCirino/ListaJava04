@@ -25,19 +25,17 @@ public class SalarioFixoMaisVendas {
 		System.out.println("Digite o valor da terceira venda.");
 		float venda3 = sc.nextFloat();
 
+
+
 		if (venda1 < 1.500f) {
-			float comissao = salarioFixo / 100 * 3;
-		} else if (venda1 > 1.500f) {
-			float comissao = salarioFixo / 100 * 5;
-		} else if (venda2 < 1.500f) {
-			float comissao = salarioFixo / 100 * 3;
-		} else if (venda2 > 1.500f) {
-			float comissao = salarioFixo / 100 * 5;
-		} else if (venda3 < 1.500f) {
-			float comissao = salarioFixo / 100 * 3;
+			float comissao1 = salarioFixo / 100 * 3;
 		} else {
-			float comissao = salarioFixo / 100 * 5;
-		}
+			float comissao1 = salarioFixo / 100 * 5;
+		} 
+		float salarioFinal =
+			
+		System.out.println("O salário com as comissão das vendas é: R$" + salarioFixo);
+
 		sc.close();
 	}
 }
